@@ -3,7 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
 # Install Below Dependencies
-npm install bootstrap
+`npm install bootstrap`
+`npm install faker`
+`npm install @types/faker`
 
 ## Development server
 
