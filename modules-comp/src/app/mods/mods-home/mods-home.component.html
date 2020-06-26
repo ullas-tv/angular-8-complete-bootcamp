@@ -1,0 +1,13 @@
+<app-divider>
+    Modal Component
+</app-divider>
+<button (click)="showModal()">Show Modal</button>
+<app-modal (close)="showModal()" *ngIf="displayModal">
+    <div modalTitle class="header">I'm a Reusable Modal!!</div>
+    <p>I'm a Reusable Modal Content!</p>
+    <ng-container modalFooter><button (click)="showModal()" class="ui button">Close Me!</button></ng-container>
+</app-modal>
+<app-divider>
+    Accordian Component
+</app-divider>
+<app-accordian [items]="items"></app-accordian>
