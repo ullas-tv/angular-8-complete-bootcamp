@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row">
+    <button (click)="getPhoto()" class="btn-primary">
+      Hitme Up to get random image
+    </button>
+  </div>
+  <img *ngIf="imgUr" [src]="imgUr" />
+</div>
